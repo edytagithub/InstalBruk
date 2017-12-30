@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ,CACJ,KAAK,CCDO,KAAK",
+"sources": ["../SCSS/_footer.scss","../SCSS/_varieables.scss"],
+"names": [],
+"file": "main.css"
+}

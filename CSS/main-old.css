@@ -1,0 +1,19 @@
+.offer-image img, .portfolio-img img {
+    width: 100px;
+    height: 100px;
+} 
+body {
+    background-color: rgb(125, 125, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header styles */
+.logo {
+    padding: 30px 0;
+}
+nav li a{
+    font-size: 20px;
+    text-transform:uppercase;
+    color: rgb(125, 125, 125);
+    margin-right: 50px;
+}
