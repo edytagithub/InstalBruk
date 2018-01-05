@@ -1,0 +1,42 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.section {
+    
+
+    &--headline {
+        text-align: center;
+        margin-bottom: 20px;
+        &__title {
+            font-size: 34px;
+            text-transform: capitalize;
+
+        }
+        &__subtitle {
+            font-size: 18px;
+            color: #4c545f;
+            &:before {
+                width: 75px;
+                height: 1px;
+                margin-right: 20px;
+                background: #4c545f;
+                content: '';
+                display: inline-block;
+                top: -4px;
+                position: relative;
+            }
+            &:after {
+                width: 75px;
+                height: 1px;
+                margin-left: 20px;
+                background: #4c545f;
+                content: '';
+                display: inline-block;
+                top: -4px;
+                position: relative;
+            }
+        }
+    }
+}

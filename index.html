@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>InstalBruk</title>
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" >
     
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
 </head>
 <body>
     <header>
@@ -64,47 +65,56 @@
             </div>  <!-- end slogan-area -->
         </div> <!-- end container -->
     </header>
-    <section class="company-advantages">
-        <div class="container">
-            <div class="section-headline">
-                <h2 class="section-title">nasze atuty</h2>
-                <p>co nas wyróżnia</p>
-            </div>
-            <div class="advantages-row">
-                <div class="advantages-icon">
-                    <span class="fa fa-clock-o" aria-hidden="true"></span>
+    <section class="section container">
+        <div class="row section--headline">
+            <h2 class="col section--headline__title">nasze atuty</h2>
+            <div class="w-100"></div>
+            <p class="col section--headline__subtitle">co nas wyróżnia</p>
+        </div>
+        <div class="row advantages justify-content-center">
+            <div class="col advantages--box">
+                <div class="advantages--box__inner">
+                    <div class="advantages--icon">
+                        <span class="fa fa-clock-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="col advantages--text">
+                        <p>terminowość</p>
+                    </div> 
+                </div> 
+            </div>  
+            <div class="col advantages--box">
+                <div class="advantages--box__inner">
+                    <div class="advantages--icon">
+                        <span class="fa fa-clock-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="advantages--text">
+                        <p>terminowość</p>
+                    </div>  
                 </div>
-                <div class="advantages-text">
-                    <p>terminowość</p>
+            </div>  
+            <div class="col advantages--box">
+                <div class="advantages--box__inner">
+                    <div class="advantages--icon">
+                        <span class="fa fa-clock-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="advantages--text">
+                        <p>terminowość</p>
+                    </div>
                 </div>  
-            </div>  <!-- end advantages-row -->
-            <div class="advantages-row">
-                <div class="advantages-icon">
-                    <span class="fa fa-clock-o" aria-hidden="true"></span>
-                </div>
-                <div class="advantages-text">
-                    <p>terminowość</p>
-                </div>  
-            </div>  <!-- end advantages-row -->
-            <div class="advantages-row">
-                <div class="advantages-icon">
-                    <span class="fa fa-clock-o" aria-hidden="true"></span>
-                </div>
-                <div class="advantages-text">
-                    <p>terminowość</p>
-                </div>  
-            </div>  <!-- end advantages-row -->
-            <div class="advantages-row">
-                <div class="advantages-icon">
-                    <span class="fa fa-clock-o" aria-hidden="true"></span>
-                </div>
-                <div class="advantages-text">
-                    <p>terminowość</p>
-                </div>  
-            </div>  <!-- end advantages-row -->
-        </div>  <!-- end container -->
+            </div>  
+            <div class="col advantages--box">
+                <div class="advantages--box__inner">
+                    <div class="advantages--icon">
+                        <span class="fa fa-clock-o" aria-hidden="true"></span>
+                    </div>
+                    <div class="advantages--text">
+                        <p>terminowość</p>
+                    </div>
+                </div>              
+            </div> 
+        </div> 
     </section>  <!-- end company-advantages -->
-    <section class="company-offer">
+    <section class="offer">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">oferta</h2>
@@ -176,7 +186,7 @@
             </div>   <!-- end offer-row -->                       
         </div>  <!-- end container -->
     </section>  <!-- end company-offer -->
-    <section class="company-about">
+    <section class="about">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">o nas</h2>
@@ -187,7 +197,7 @@
             </div>
         </div>  <!-- end container -->
     </section>  <!-- end company-about -->
-    <section class="company-portfolio">
+    <section class="portfolio">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">realizacje</h2>
@@ -203,7 +213,7 @@
             </div>  <!-- end portfolio-row -->       
         </div>  <!-- end container -->
     </section>  <!-- end company-portfolio -->
-    <section class="company-reference">
+    <section class="reference">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">referencje</h2>
@@ -211,7 +221,7 @@
             </div>   <!-- end section-headline -->
         </div>  <!-- end container -->
     </section>  <!-- end company-reference -->
-    <section class="company-clients">
+    <section class="clients">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">nasi klienci</h2>
@@ -219,7 +229,7 @@
             </div>   <!-- end section-headline -->
         </div>  <!-- end container -->
     </section>  <!-- end company-clients -->
-    <section class="company-contact">
+    <section class="contact">
         <div class="container">
             <div class="section-headline">
                 <h2 class="section-title">nasi klienci</h2>
@@ -233,8 +243,8 @@
 
 
     <!-- bootstrap js -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,3 +1,12 @@
 .footer {
     color: $primary-color;
+
+    .footer--link__red {
+        color: red;
+        
+    }
+
+    &__test {
+        color: black;
+    }
 }
