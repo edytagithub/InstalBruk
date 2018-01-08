@@ -86,4 +86,23 @@ body {
       .jumbotron--text h1 .logo__light {
         color: #DB720D; }
 
+.navbar {
+  width: 100%; }
+  .navbar .nav-item {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 168px;
+    text-align: center; }
+    .navbar .nav-item .nav-link {
+      padding: 0;
+      line-height: 84px;
+      text-transform: uppercase;
+      width: 100%;
+      font-size: 20px;
+      position: relative; }
+
+header {
+  background-color: #4c545f;
+  height: 105px;
+  padding: 20px 0; }
+
 /*# sourceMappingURL=main.css.map */
