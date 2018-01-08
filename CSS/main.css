@@ -68,4 +68,22 @@ body {
 .advantages--box:nth-child(1), .advantages--box:nth-child(2), .advantages--box:nth-child(3) {
   margin-right: 20px; }
 
+.jumbotron {
+  background-image: url(../images/stones.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: #fff; }
+  .jumbotron--text {
+    margin: 10%; }
+    .jumbotron--text h1 {
+      font-size: 56px;
+      font-weight: 700;
+      margin-bottom: 30px; }
+      .jumbotron--text h1 .logo__dark {
+        color: #723531; }
+      .jumbotron--text h1 .logo__light {
+        color: #DB720D; }
+
 /*# sourceMappingURL=main.css.map */
