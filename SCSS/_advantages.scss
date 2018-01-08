@@ -1,7 +1,6 @@
 .advantages {
     
     &--box {
-        font-family: 'Raleway', sans-serif;
         font-size: 16px;
         color: #333d40;
         height: 270px;
@@ -20,20 +19,19 @@
             -webkit-transition: all 300ms ease-out;
             transition: all 300ms ease-out;
 
-
-            &:hover{
+            &:hover {
                 background: $primary-color;
             }
 
-            &:hover .advantages--icon{
+            &:hover .advantages--icon { 
                 color: #fff;
             }
 
-            &:hover .advantages--text{
+            &:hover .advantages--text {
                 color: #fff;
             }
             
-            .advantages--icon{
+            .advantages--icon {
                 font-size: 50px;
                 line-height: 50px;
                 color: $primary-color;
@@ -47,8 +45,7 @@
                 text-transform: capitalize;
                 font-weight: bold;
                 position: relative;
-            }
-            
+            }            
         }
     }
     &--box:nth-child(1),  &--box:nth-child(2),  &--box:nth-child(3) {

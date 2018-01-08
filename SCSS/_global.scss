@@ -2,37 +2,38 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-
 .section {
     
-
     &--headline {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 20px;
+
         &__title {
             font-size: 34px;
             text-transform: capitalize;
-
         }
+
         &__subtitle {
             font-size: 18px;
-            color: $fade-font-color;
+            color: $subtitle-color;
+
             &:before {
                 width: 75px;
                 height: 1px;
                 margin-right: 20px;
-                background: $underline-color;
+                background: $subtitle-color;
                 content: '';
                 display: inline-block;
                 top: -4px;
                 position: relative;
             }
+
             &:after {
                 width: 75px;
                 height: 1px;
                 margin-left: 20px;
-                background: $underline-color;
+                background: $subtitle-color;
                 content: '';
                 display: inline-block;
                 top: -4px;
