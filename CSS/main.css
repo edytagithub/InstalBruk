@@ -1,3 +1,12 @@
+.underline, .section--headline__subtitle:before, .section--headline__subtitle:after {
+  width: 75px;
+  height: 1px;
+  background: #4c545f;
+  content: '';
+  display: inline-block;
+  top: -4px;
+  position: relative; }
+
 body {
   font-family: 'Raleway', sans-serif; }
 
@@ -12,23 +21,9 @@ body {
     font-size: 18px;
     color: #4c545f; }
     .section--headline__subtitle:before {
-      width: 75px;
-      height: 1px;
-      margin-right: 20px;
-      background: #4c545f;
-      content: '';
-      display: inline-block;
-      top: -4px;
-      position: relative; }
+      margin-right: 20px; }
     .section--headline__subtitle:after {
-      width: 75px;
-      height: 1px;
-      margin-left: 20px;
-      background: #4c545f;
-      content: '';
-      display: inline-block;
-      top: -4px;
-      position: relative; }
+      margin-left: 20px; }
 
 .advantages--box {
   font-size: 16px;

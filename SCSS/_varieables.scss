@@ -1,3 +1,13 @@
 $primary-color: #DB720D;
 $secondary-color: #723531;
 $subtitle-color: #4c545f;
+
+.underline {
+    width: 75px;
+    height: 1px;
+    background: $subtitle-color;
+    content: '';
+    display: inline-block;
+    top: -4px;
+    position: relative;
+}

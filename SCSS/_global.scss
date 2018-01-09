@@ -19,25 +19,13 @@ body {
             color: $subtitle-color;
 
             &:before {
-                width: 75px;
-                height: 1px;
+                @extend.underline;
                 margin-right: 20px;
-                background: $subtitle-color;
-                content: '';
-                display: inline-block;
-                top: -4px;
-                position: relative;
             }
 
             &:after {
-                width: 75px;
-                height: 1px;
+                @extend.underline;
                 margin-left: 20px;
-                background: $subtitle-color;
-                content: '';
-                display: inline-block;
-                top: -4px;
-                position: relative;
             }
         }
     }
