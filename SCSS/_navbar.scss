@@ -1,0 +1,18 @@
+.navbar {
+    width: 100%;
+
+    .nav-item {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        width: 168px;
+        text-align: center;
+
+        .nav-link {
+            padding: 0;
+            line-height: 84px;
+            text-transform: uppercase;
+            width: 100%;
+            font-size: 20px;
+            position: relative;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.jumbotron {
+    background-image: url(../images/stones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+
+    &--text {
+        margin: 10%;
+
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 30px;
+
+            .logo__dark {
+                color: $secondary-color;
+            }
+
+            .logo__light {
+                color: $primary-color;
+            }
+        }
+    }
+}

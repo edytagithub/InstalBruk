@@ -1,0 +1,54 @@
+.advantages {
+    
+    &--box {
+        font-size: 16px;
+        color: #333d40;
+        height: 270px;
+        width: 270px;
+        border: 10px solid $primary-color;
+        padding: 20px;
+        border-radius: 100%;
+        cursor: all-scroll;
+        margin: 0 auto 10px;
+        text-align: center;
+
+        &__inner {
+            border: 2px solid rgba(219, 114, 13, 0.8);
+            height: 100%;
+            border-radius: 100%;
+            -webkit-transition: all 300ms ease-out;
+            transition: all 300ms ease-out;
+
+            &:hover {
+                background: $primary-color;
+            }
+
+            &:hover .advantages--icon { 
+                color: #fff;
+            }
+
+            &:hover .advantages--text {
+                color: #fff;
+            }
+            
+            .advantages--icon {
+                font-size: 50px;
+                line-height: 50px;
+                color: $primary-color;
+                margin: 70px 0 10px;
+                display: block;
+            }
+
+            .advantages--text {
+                display: inline-block;
+                font-size: 16px;
+                text-transform: capitalize;
+                font-weight: bold;
+                position: relative;
+            }            
+        }
+    }
+    &--box:nth-child(1),  &--box:nth-child(2),  &--box:nth-child(3) {
+        margin-right: 20px;
+    }
+}

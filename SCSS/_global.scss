@@ -1,0 +1,32 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.section {
+    
+    &--headline {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        &__title {
+            font-size: 34px;
+            text-transform: capitalize;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            color: $subtitle-color;
+
+            &:before {
+                @extend.underline;
+                margin-right: 20px;
+            }
+
+            &:after {
+                @extend.underline;
+                margin-left: 20px;
+            }
+        }
+    }
+}
