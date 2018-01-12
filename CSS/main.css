@@ -25,6 +25,10 @@ body {
     .section--headline__subtitle:after {
       margin-left: 20px; }
 
+.background__dark {
+  padding: 20px;
+  background-color: #F7F7F7; }
+
 .advantages--box {
   font-size: 16px;
   color: #333d40;
@@ -62,6 +66,15 @@ body {
       position: relative; }
 .advantages--box:nth-child(1), .advantages--box:nth-child(2), .advantages--box:nth-child(3) {
   margin-right: 20px; }
+
+footer {
+  padding-top: 40px;
+  background: #4c545f;
+  color: #fff; }
+  footer .contact--box__inner .contact--icon {
+    text-align: center; }
+    footer .contact--box__inner .contact--icon img {
+      width: 60px; }
 
 .jumbotron {
   background-image: url(../images/stone-floor.jpg);
@@ -173,5 +186,15 @@ header {
 
 .carousel-control-prev {
   color: #000 !important; }
+
+.clients {
+  padding-bottom: 20px; }
+  .clients--box:hover img {
+    opacity: 0.8; }
+  .clients--box img {
+    width: 100%;
+    border: 1px dashed #4c545f;
+    padding: 5px;
+    opacity: 0.4; }
 
 /*# sourceMappingURL=main.css.map */

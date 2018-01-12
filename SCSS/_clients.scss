@@ -1,0 +1,15 @@
+.clients {
+    padding-bottom: 20px;
+    &--box {
+        &:hover img {
+            opacity: 0.8;
+        }
+
+        img {
+            width: 100%;
+            border: 1px dashed $subtitle-color;
+            padding: 5px;
+            opacity: 0.4;
+        }
+    }
+}
