@@ -197,4 +197,33 @@ header {
     padding: 5px;
     opacity: 0.4; }
 
+.offer--box {
+  transition: all 0.3s ease;
+  text-align: center; }
+  .offer--box:hover .offer--icon {
+    margin-top: -20px; }
+  .offer--box:hover .offer--icon img {
+    opacity: 0.7; }
+  .offer--box:hover h4 {
+    color: #DB720D; }
+  .offer--box:hover p {
+    opacity: 1; }
+  .offer--box .offer--icon {
+    width: 100%;
+    padding: 0 20px; }
+    .offer--box .offer--icon img {
+      width: 200px;
+      height: 200px;
+      opacity: 0.4; }
+  .offer--box .offer--title {
+    padding: 10px 0;
+    color: #4c545f;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px; }
+  .offer--box p {
+    opacity: 0;
+    font-size: 12px;
+    line-height: 18px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,47 @@
+.offer {
+    &--box {
+        transition: all 0.3s ease;
+        text-align: center;
+
+        &:hover .offer--icon {
+            margin-top:-20px;
+        }
+
+        &:hover .offer--icon img {
+            opacity:0.7;
+        }
+
+        &:hover h4 { 
+            color: $primary-color;
+        }
+
+        &:hover p { 
+            opacity:1;
+        }
+
+        .offer--icon {
+            width: 100%;
+            padding: 0 20px;
+
+            img {
+                width: 200px;
+                height: 200px;
+                opacity: 0.4;
+            }
+        }
+
+        .offer--title {
+            padding: 10px 0;
+            color: $subtitle-color;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+
+        p {
+            opacity: 0;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
