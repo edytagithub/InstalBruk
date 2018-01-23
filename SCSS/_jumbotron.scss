@@ -24,4 +24,24 @@
             }
         }
     }
+
+    .btn-outline-dark {
+        color: $primary-color;
+        background-color: #fff;
+        border-color:$primary-color;
+
+        &:hover {
+            color: #fff;
+            background-color: $primary-color;
+            border-color: #343a40;
+        }
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }

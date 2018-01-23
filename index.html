@@ -16,11 +16,15 @@
 
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="container">
             <div class="logo row">
-                <div class="col">
+                <div class="col-9 logo--image">
                     <img src="images/logo2.png" alt="InstalBruk-kostka brukowa">
+                </div>
+                <div class="col-3 logo--text">
+                    <p><span class="fa fa-phone" aria-hidden="true"></span>0-502-504-103</p>
+                    <p><span class="fa fa-envelope" aria-hidden="true"></span>biuro@instalbruk.pl</p>
                 </div>
             </div>       
         </div> 
@@ -33,22 +37,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Oferta</a>
+                  <a class="nav-link" href="#offer">Oferta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O nas</a>
+                    <a class="nav-link" href="#about">O nas</a>
                 </li>       
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Realizacje</a>
+                    <a class="nav-link" href="#portfolio">Realizacje</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Referencje</a>
+                    <a class="nav-link" href="#reference">Referencje</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
                 </li>                                  
               </ul>
             </div>
@@ -60,8 +64,8 @@
                 <h1 class="display-4"><span class="logo__dark">Instal</span><span class="logo__light">Bruk</span></h1>
                 <p class="lead">Witamy Państwa na naszej stronie! Jeśli jesteście Państwo zainteresowani wykonaniem domowego chodnika, podjazdu, parkingu czy też innych prac brukarskich, to pragniemy gorąco zachęcić do skorzystania z naszych usług. Gwarantujemy Państwu solidne wykonanie prac i wysoką jakość użytych materiałow!</p>
             </div>
-            <button button type="button" class="btn btn-secondary btn-lg">
-                    Czytaj więcej
+            <button button type="button" class="btn btn-outline-dark btn-lg">
+                    <a href="#about">Czytaj więcej</a> 
             </button>
         </div>
     </section>>
@@ -88,7 +92,7 @@
                         <span class="fa fa-clock-o" aria-hidden="true"></span>
                     </div>
                     <div class="advantages--text">
-                        <p>terminowość</p>
+                        <p>dokładność</p>
                     </div>  
                 </div>
             </div>  
@@ -98,7 +102,7 @@
                         <span class="fa fa-clock-o" aria-hidden="true"></span>
                     </div>
                     <div class="advantages--text">
-                        <p>terminowość</p>
+                        <p>konkurencyjne ceny</p>
                     </div>
                 </div>  
             </div>  
@@ -108,13 +112,13 @@
                         <span class="fa fa-clock-o" aria-hidden="true"></span>
                     </div>
                     <div class="advantages--text">
-                        <p>terminowość</p>
+                        <p>doświadczenie</p>
                     </div>
                 </div>              
             </div> 
         </div> 
     </section>
-    <section class="section">
+    <section class="section" id="about">
         <div class="row section--headline">
             <h2 class="col section--headline__title">o nas</h2>
             <div class="w-100"></div>
@@ -132,74 +136,78 @@
             </div>
         </div>
     </section>    
-    <section class="section container">
+    <section class="section container" id="offer">
         <div class="row section--headline">
             <h2 class="col section--headline__title">nasza oferta</h2>
             <div class="w-100"></div>
             <p class="col section--headline__subtitle">co robimy</p>
         </div>
+        <div class="row justify-content-center">
+            <p class="col-8 offer--text">Świadczymy usługi kompleksowe, a także osobne wykonanie poszczególnych 
+                etapów budowy. Współpracujemy z producentami materiałow budowlanych.</p>
+        </div>
         <div class="row offer">
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/kostka-icon.png" alt="">
                 </div>
                 <h4 class="offer--title">kostka brukowa</h4>
                 <p>układanie kostki brukowej</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/koparka2-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">prace ziemne</h4>
+                <p>Przygotowanie podbudowy wraz z pracami ziemnymi</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/kraweznik-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">obrzeża i krawężniki</h4>
+                <p>Układanie obrzeży i krawężników</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/beton-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">galanteria betonowa</h4>
+                <p>Układanie palisad, gazonów oraz pozostałej galanterii betonowej </p>
             </div>                         
         </div>  
         <div class="row offer">
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/kropla-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">odwodnienia</h4>
+                <p>Wykonywanie drenaży i odwodnień</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
                     <img src="images/hammer-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">murki</h4>
+                <p>Stawianie murków</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/taras-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">tarasy</h4>
+                <p>Układanie płyt tarasowych</p>
             </div>
             <div class="col offer--box">
                 <div class="offer--icon">
-                    <img src="images/hammer-icon.png" alt="">
+                    <img src="images/plan-icon.png" alt="">
                 </div>
-                <h4 class="offer--title">kostka brukowa</h4>
-                <p>układanie kostki brukowej</p>
+                <h4 class="offer--title">darmowy pomiar</h4>
+                <p>Darmowy pomiar i wycenę wstępną</p>
             </div>                         
         </div>
     </section>  
-    <section class="section">
+    <section class="section" id="portfolio">
         <div class="row section--headline">
             <h2 class="col section--headline__title">realizacje</h2>
             <div class="w-100"></div>
@@ -258,7 +266,7 @@
             </div>
         </div>          
     </section>
-    <section class="section container">
+    <section class="section container" id="reference">
         <div class="row section--headline">
             <h2 class="col section--headline__title">referencje</h2>
             <div class="w-100"></div>
@@ -357,7 +365,7 @@
             </div>
         </div>
     </section> 
-    <footer class="section">
+    <footer class="section" id="contact">
         <div class="container">
             <div class="row contact">
                 <div class="col contact--box">
@@ -366,7 +374,7 @@
                             <img src="images/phone-icon.png" alt="">
                         </div>
                         <div class="col contact--text">
-                            <p>Telefon</p>
+                            <p>Telefon:</p>
                             <p>0-502-504-103</p>
                         </div>
                     </div>
@@ -377,8 +385,8 @@
                             <img src="images/mail-icon.png" alt="">
                         </div>
                         <div class="col contact--text">
-                            <p>E-mail</p>
-                            <p>biuro@instalbruk.pl3</p>
+                            <p>E-mail:</p>
+                            <p>biuro@instalbruk.pl</p>
                         </div>
                     </div>
                 </div>
@@ -388,13 +396,15 @@
                             <img src="images/map-icon.png" alt="">
                         </div>
                         <div class="col contact--text">
-                            <p>Adres</p>
+                            <p>Adres:</p>
                             <p>Kraków - Libertów</p>
                         </div>
                     </div>
                 </div>
             </div>
-        copyright
+            <div class="copyright">
+                <p>© 2017 InstalBruk, All Rights Reserved</p>
+            </div>
         </div>
     </footer> 
 

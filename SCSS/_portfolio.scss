@@ -4,14 +4,17 @@
         position: relative;
         padding: 0;
 
-        &:hover .portfolio--text {
-            margin-left: -1000%;
-            background: none;
-            // display: none;
-        }
+        &:hover {
+            .portfolio--text {
+                // margin-left: -1000%;
+                opacity: 0;
+                background: none;
+                // display: none;
+            }
+        } 
 
+        
         .portfolio--img {
-
             img {
                 width: 100%;
             }
@@ -26,7 +29,7 @@
             background: $primary-color;
             opacity: 0.85;
             color: #FFF;
-            transition: all 300ms ease-in-out;
+            transition: all 600ms ease-in-out;
             text-align: center;
         }
     }
