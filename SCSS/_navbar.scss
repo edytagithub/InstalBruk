@@ -1,18 +1,32 @@
 .navbar {
     width: 100%;
+    padding: 0;
+
+    .nav-item:first-child {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
 
     .nav-item {
-        border-right: 1px solid rgba(0, 0, 0, 0.1);
         width: 168px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
         text-align: center;
-
+        
         .nav-link {
+            position: relative;
+            width: 100%;
             padding: 0;
+            font-size: 20px;
             line-height: 84px;
             text-transform: uppercase;
-            width: 100%;
-            font-size: 20px;
-            position: relative;
+
+            &:hover {
+                color: #FFF;
+                background: $primary-color;
+            }
         }
+    }
+    & .active a {
+        background: $primary-color;
+        color: #FFF!important;
     }
 }

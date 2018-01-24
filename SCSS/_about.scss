@@ -1,0 +1,30 @@
+.about {
+    height: 600px;
+    background-image: url(../images/about2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    &--text {
+        margin-top: 6%;
+        border: 10px solid #DB720D;
+        padding: 20px;
+        text-align: justify;
+        color: #333d40;
+        cursor: all-scroll;
+
+        &__inner {
+            height: 100%;
+            border: 2px solid rgba(219, 114, 13, 0.8);
+            padding: 10px;
+            font-size: 18px;
+            background-color: rgba(255,255,255,0.4);
+            -webkit-transition: all 300ms ease-out;
+            transition: all 300ms ease-out;
+
+            &:hover {
+                color: #fff;
+                background: $primary-color;
+            }
+        }
+    }
+}

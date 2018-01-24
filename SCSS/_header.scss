@@ -1,5 +1,15 @@
 header {
-    background-color: $subtitle-color;
     height: 105px;
     padding: 20px 0;
+    background-color: $subtitle-color;
+
+    .logo--text {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        
+        span {
+            padding-right: 5px;
+        }
+    }
 }

@@ -1,0 +1,32 @@
+.portfolio {
+    &--box {
+        position: relative;
+        padding: 0;
+
+        &:hover {
+            .portfolio--text {
+                background: none;
+                opacity: 0;
+            }
+        } 
+
+        .portfolio--img {
+            img {
+                width: 100%;
+            }
+        }
+
+        .portfolio--text {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            background: $primary-color;
+            opacity: 0.85;
+            color: #FFF;
+            transition: all 600ms ease-in-out;
+            text-align: center;
+        }
+    }
+}
