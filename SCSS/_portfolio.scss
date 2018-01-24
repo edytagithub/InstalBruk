@@ -1,19 +1,15 @@
 .portfolio {
-
     &--box {
         position: relative;
         padding: 0;
 
         &:hover {
             .portfolio--text {
-                // margin-left: -1000%;
-                opacity: 0;
                 background: none;
-                // display: none;
+                opacity: 0;
             }
         } 
 
-        
         .portfolio--img {
             img {
                 width: 100%;

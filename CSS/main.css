@@ -1,19 +1,19 @@
 .underline, .section--headline__subtitle:before, .section--headline__subtitle:after {
+  position: relative;
+  display: inline-block;
   width: 75px;
   height: 1px;
-  background: #4c545f;
-  content: '';
-  display: inline-block;
   top: -4px;
-  position: relative; }
+  content: '';
+  background: #4c545f; }
 
 body {
   font-family: 'Raleway', sans-serif; }
 
 .section--headline {
-  text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  text-align: center; }
   .section--headline__title {
     font-size: 34px;
     text-transform: capitalize; }
@@ -30,19 +30,19 @@ body {
   background-color: #F7F7F7; }
 
 .advantages--box {
-  font-size: 16px;
-  color: #333d40;
   height: 270px;
   width: 270px;
-  border: 10px solid #DB720D;
-  padding: 20px;
-  border-radius: 100%;
-  cursor: all-scroll;
   margin: 0 auto 10px;
-  text-align: center; }
+  border: 10px solid #DB720D;
+  border-radius: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #333d40;
+  cursor: all-scroll; }
   .advantages--box__inner {
-    border: 2px solid rgba(219, 114, 13, 0.8);
     height: 100%;
+    border: 2px solid rgba(219, 114, 13, 0.8);
     border-radius: 100%;
     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
@@ -53,17 +53,17 @@ body {
     .advantages--box__inner:hover .advantages--text {
       color: #fff; }
     .advantages--box__inner .advantages--icon {
+      display: block;
+      margin: 70px 0 10px;
       font-size: 50px;
       line-height: 50px;
-      color: #DB720D;
-      margin: 70px 0 10px;
-      display: block; }
+      color: #DB720D; }
     .advantages--box__inner .advantages--text {
+      position: relative;
       display: inline-block;
-      font-size: 16px;
       text-transform: capitalize;
-      font-weight: bold;
-      position: relative; }
+      font-size: 16px;
+      font-weight: bold; }
 .advantages--box:nth-child(1), .advantages--box:nth-child(2), .advantages--box:nth-child(3) {
   margin-right: 20px; }
 
@@ -85,31 +85,31 @@ footer {
       font-size: 14px; }
 
 .jumbotron {
+  height: 100vh;
   background-image: url(../images/stone-floor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000;
-  height: 100vh;
   text-align: center;
   color: #fff; }
   .jumbotron--text {
     margin: 10%; }
     .jumbotron--text h1 {
+      margin-bottom: 30px;
       font-size: 56px;
-      font-weight: 700;
-      margin-bottom: 30px; }
+      font-weight: 700; }
       .jumbotron--text h1 .logo__dark {
         color: #723531; }
       .jumbotron--text h1 .logo__light {
         color: #DB720D; }
   .jumbotron .btn-outline-dark {
+    border-color: #DB720D;
     color: #DB720D;
-    background-color: #fff;
-    border-color: #DB720D; }
+    background-color: #fff; }
     .jumbotron .btn-outline-dark:hover {
+      border-color: #343a40;
       color: #fff;
-      background-color: #DB720D;
-      border-color: #343a40; }
+      background-color: #DB720D; }
   .jumbotron a {
     color: inherit; }
     .jumbotron a:hover {
@@ -134,11 +134,14 @@ footer {
       .navbar .nav-item .nav-link:hover {
         color: #FFF;
         background: #DB720D; }
+  .navbar .active a {
+    background: #DB720D;
+    color: #FFF !important; }
 
 header {
-  background-color: #4c545f;
   height: 105px;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #4c545f; }
   header .logo--text {
     font-size: 16px;
     font-weight: 700;
@@ -147,36 +150,35 @@ header {
       padding-right: 5px; }
 
 .about {
+  height: 600px;
   background-image: url(../images/about2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px; }
+  background-size: cover; }
   .about--text {
+    margin-top: 6%;
+    border: 10px solid #DB720D;
     padding: 20px;
     text-align: justify;
     color: #333d40;
-    border: 10px solid #DB720D;
-    padding: 20px;
-    cursor: all-scroll;
-    width: 500px; }
+    cursor: all-scroll; }
     .about--text__inner {
-      border: 2px solid rgba(219, 114, 13, 0.8);
       height: 100%;
-      -webkit-transition: all 300ms ease-out;
-      transition: all 300ms ease-out;
+      border: 2px solid rgba(219, 114, 13, 0.8);
       padding: 10px;
       font-size: 18px;
-      background-color: rgba(255, 255, 255, 0.4); }
+      background-color: rgba(255, 255, 255, 0.4);
+      -webkit-transition: all 300ms ease-out;
+      transition: all 300ms ease-out; }
       .about--text__inner:hover {
-        background: #DB720D;
-        color: #fff; }
+        color: #fff;
+        background: #DB720D; }
 
 .portfolio--box {
   position: relative;
   padding: 0; }
   .portfolio--box:hover .portfolio--text {
-    opacity: 0;
-    background: none; }
+    background: none;
+    opacity: 0; }
   .portfolio--box .portfolio--img img {
     width: 100%; }
   .portfolio--box .portfolio--text {
@@ -196,10 +198,10 @@ header {
   .reference--image {
     width: 153px;
     height: 153px;
-    border-radius: 100%;
     padding: 20px;
     margin: 0 auto;
-    border: 2px solid #DB720D; }
+    border: 2px solid #DB720D;
+    border-radius: 100%; }
     .reference--image img {
       width: 100%;
       height: 100%;
@@ -210,14 +212,11 @@ header {
   .reference--icon {
     margin-bottom: 30px; }
   .reference--text {
+    padding: 20px 40px;
+    border-radius: 10px;
     color: #723531;
     font-size: 22px;
-    font-weight: 300;
-    border-radius: 10px;
-    padding: 20px 40px; }
-
-.carousel-control-prev {
-  color: #000 !important; }
+    font-weight: 300; }
 
 .clients {
   padding-bottom: 20px; }
@@ -235,8 +234,8 @@ header {
   color: #4c545f; }
 
 .offer--box {
-  transition: all 0.3s ease;
-  text-align: center; }
+  text-align: center;
+  transition: all 0.3s ease; }
   .offer--box:hover .offer--icon {
     margin-top: -20px; }
   .offer--box:hover .offer--icon img {
@@ -249,15 +248,15 @@ header {
     width: 100%;
     padding: 0 20px; }
     .offer--box .offer--icon img {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       opacity: 0.4; }
   .offer--box .offer--title {
     padding: 10px 0;
     color: #4c545f;
+    font-size: 15px;
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 15px; }
+    text-transform: uppercase; }
   .offer--box p {
     opacity: 0;
     font-size: 12px;

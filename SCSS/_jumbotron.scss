@@ -1,9 +1,9 @@
 .jumbotron {
+    height: 100vh;
     background-image: url(../images/stone-floor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
-    height: 100vh;
     text-align: center;
     color: #fff;
 
@@ -11,9 +11,9 @@
         margin: 10%;
 
         h1 {
+            margin-bottom: 30px;
             font-size: 56px;
             font-weight: 700;
-            margin-bottom: 30px;
 
             .logo__dark {
                 color: $secondary-color;
@@ -26,14 +26,14 @@
     }
 
     .btn-outline-dark {
+        border-color:$primary-color;
         color: $primary-color;
         background-color: #fff;
-        border-color:$primary-color;
 
         &:hover {
+            border-color: #343a40;
             color: #fff;
             background-color: $primary-color;
-            border-color: #343a40;
         }
     }
 

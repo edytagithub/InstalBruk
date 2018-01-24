@@ -10,7 +10,7 @@
         width: 168px;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         text-align: center;
-
+        
         .nav-link {
             position: relative;
             width: 100%;
@@ -24,7 +24,9 @@
                 background: $primary-color;
             }
         }
-
-
+    }
+    & .active a {
+        background: $primary-color;
+        color: #FFF!important;
     }
 }

@@ -4,10 +4,10 @@
     &--image {
         width: 153px;
         height: 153px;
-        border-radius: 100%;
         padding: 20px;
         margin: 0 auto;
         border: 2px solid $primary-color;
+        border-radius: 100%;
 
         img {
             width: 100%;
@@ -26,14 +26,10 @@
     }
 
     &--text {
+        padding: 20px 40px;
+        border-radius: 10px;
         color: $secondary-color;
         font-size: 22px;
         font-weight: 300;
-        border-radius: 10px;
-        padding: 20px 40px;
     }
-}
-
-.carousel-control-prev {
-    color: #000!important;
 }
