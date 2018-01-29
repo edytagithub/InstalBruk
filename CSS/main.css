@@ -264,4 +264,59 @@ header {
     font-size: 12px;
     line-height: 18px; }
 
+@media only screen and (max-width: 480px) {
+  header {
+    height: 160px; }
+
+  header .logo--text {
+    margin-top: 5px; }
+
+  .jumbotron--text h1 {
+    display: none; }
+
+  .about--text__inner {
+    background-color: #fff;
+    opacity: 0.9; }
+
+  .portfolio--box .portfolio--text {
+    padding: 0; }
+
+  .portfolio--text h4 {
+    font-size: 1rem; }
+
+  .contact--text {
+    margin-top: 20px;
+    text-align: center; } }
+@media only screen and (max-width: 768px) {
+  header {
+    height: 160px; }
+
+  header .logo--text {
+    margin-top: 5px; }
+
+  .about--text__inner {
+    background-color: #fff;
+    opacity: 0.9; }
+
+  .portfolio--box .portfolio--text {
+    padding: 10px; }
+
+  .portfolio--text h4 {
+    font-size: 1.2rem; }
+
+  .contact--text {
+    margin-top: 20px;
+    text-align: center; } }
+@media only screen and (max-width: 992px) {
+  .about--text__inner {
+    background-color: #fff;
+    opacity: 0.9; }
+
+  .portfolio--box .portfolio--text {
+    padding: 10px; }
+
+  .contact--text {
+    margin-top: 20px;
+    text-align: center; } }
+
 /*# sourceMappingURL=main.css.map */
