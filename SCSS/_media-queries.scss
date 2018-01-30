@@ -1,15 +1,8 @@
-@media only screen and (max-width : 480px) {
-
-    header {
-        height: 160px;
-    }
-
-    header .logo--text {
-        margin-top: 5px;
-    }
-
-    .jumbotron--text h1{
-        display: none;
+@media only screen and (max-width : 992px) {
+    .nav-link {
+        font-size: 16px!important;
+        line-height: 65px!important;
+        color: red;
     }
 
     .about--text__inner {
@@ -18,11 +11,7 @@
     }
 
     .portfolio--box .portfolio--text {
-        padding: 0;
-    }
-
-    .portfolio--text h4 {
-        font-size: 1rem;
+        padding: 10px;
     }
 
     .contact--text {
@@ -59,14 +48,31 @@
     }
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 480px) {
+
+    header {
+        height: 160px;
+    }
+
+    header .logo--text {
+        margin-top: 5px;
+    }
+
+    .jumbotron--text h1{
+        display: none;
+    }
+
     .about--text__inner {
         background-color: #fff;
         opacity: 0.9;
     }
 
     .portfolio--box .portfolio--text {
-        padding: 10px;
+        padding: 0;
+    }
+
+    .portfolio--text h4 {
+        font-size: 1rem;
     }
 
     .contact--text {
