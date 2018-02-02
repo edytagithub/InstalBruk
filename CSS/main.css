@@ -29,9 +29,9 @@ body {
   padding: 20px;
   background-color: #F7F7F7; }
 
-.advantages--box {
-  height: 270px;
-  width: 270px;
+.advantages-margin {
+  height: 250px;
+  width: 250px;
   margin: 0 auto 10px;
   border: 10px solid #DB720D;
   border-radius: 100%;
@@ -40,32 +40,29 @@ body {
   font-size: 16px;
   color: #333d40;
   cursor: all-scroll; }
-  .advantages--box__inner {
+  .advantages-margin .advantages--box__inner {
     height: 100%;
     border: 2px solid rgba(219, 114, 13, 0.8);
     border-radius: 100%;
     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
-    .advantages--box__inner:hover {
+    .advantages-margin .advantages--box__inner:hover {
       background: #DB720D; }
-    .advantages--box__inner:hover .advantages--icon {
+    .advantages-margin .advantages--box__inner:hover .advantages--icon {
       color: #fff; }
-    .advantages--box__inner:hover .advantages--text {
+    .advantages-margin .advantages--box__inner:hover .advantages--text {
       color: #fff; }
-    .advantages--box__inner .advantages--icon {
+    .advantages-margin .advantages--box__inner .advantages--icon {
       display: block;
       margin: 70px 0 10px;
       font-size: 50px;
       line-height: 50px;
       color: #DB720D; }
-    .advantages--box__inner .advantages--text {
+    .advantages-margin .advantages--box__inner .advantages--text {
       position: relative;
       display: inline-block;
       text-transform: capitalize;
-      font-size: 16px;
       font-weight: bold; }
-.advantages--box:nth-child(1), .advantages--box:nth-child(2), .advantages--box:nth-child(3) {
-  margin-right: 20px; }
 
 footer {
   padding-top: 40px;
@@ -280,6 +277,18 @@ header {
     line-height: 65px !important;
     color: red; }
 
+  .advantages-margin {
+    height: 160px;
+    width: 160px;
+    border: 7px solid #DB720D;
+    padding: 8px;
+    font-size: 13px;
+    color: #333d40;
+    cursor: all-scroll; }
+
+  .advantages--box__inner {
+    border: 1px solid rgba(219, 114, 13, 0.8); }
+
   .about--text__inner {
     background-color: #fff;
     opacity: 0.9; }
@@ -297,6 +306,17 @@ header {
   header .logo--text {
     margin-top: 5px; }
 
+  .advantages--box {
+    margin-bottom: 20px; }
+
+  .advantages-margin {
+    height: 200px;
+    width: 200px;
+    font-size: 16px; }
+
+  .advantages--box__inner {
+    border: 1px solid rgba(219, 114, 13, 0.8); }
+
   .about--text__inner {
     background-color: #fff;
     opacity: 0.9; }
@@ -310,7 +330,7 @@ header {
   .contact--text {
     margin-top: 20px;
     text-align: center; } }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   header {
     height: 160px; }
 

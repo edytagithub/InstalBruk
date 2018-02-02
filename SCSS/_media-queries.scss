@@ -5,6 +5,20 @@
         color: red;
     }
 
+    .advantages-margin {
+        height: 160px;
+        width: 160px;
+        border: 7px solid $primary-color;
+        padding: 8px;
+        font-size: 13px;
+        color: #333d40;
+        cursor: all-scroll;
+    }
+
+    .advantages--box__inner {
+        border: 1px solid rgba(219, 114, 13, 0.8);
+    }
+
     .about--text__inner {
         background-color: #fff;
         opacity: 0.9;
@@ -28,6 +42,18 @@
     header .logo--text {
         margin-top: 5px;
     }
+    .advantages--box {
+        margin-bottom: 20px;
+    }
+    .advantages-margin {
+        height: 200px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .advantages--box__inner {
+        border: 1px solid rgba(219, 114, 13, 0.8);
+    }
 
     .about--text__inner {
         background-color: #fff;
@@ -48,7 +74,7 @@
     }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 576px) {
 
     header {
         height: 160px;
