@@ -19,6 +19,12 @@
         border: 1px solid rgba(219, 114, 13, 0.8);
     }
 
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 33px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
     .about--text__inner {
         background-color: #fff;
         opacity: 0.9;
@@ -42,6 +48,16 @@
     header .logo--text {
         margin-top: 5px;
     }
+
+    .navbar .nav-item {
+        width: 100%;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        border-bottom: 1px solid $primary-color;
+    }
+
     .advantages--box {
         margin-bottom: 20px;
     }
@@ -53,6 +69,12 @@
 
     .advantages--box__inner {
         border: 1px solid rgba(219, 114, 13, 0.8);
+    }
+
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 55px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .about--text__inner {
@@ -82,6 +104,21 @@
 
     header .logo--text {
         margin-top: 5px;
+    }
+
+    .navbar .nav-item {
+        width: 100%;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 55px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .jumbotron--text h1{
