@@ -29,6 +29,24 @@ body {
   padding: 20px;
   background-color: #F7F7F7; }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  z-index: 99;
+  width: 80px;
+  height: 80px;
+  border: none;
+  outline: none;
+  background-color: #DB720D;
+  color: white;
+  cursor: pointer;
+  border-radius: 100%; }
+
+.fa-angle-double-up {
+  font-size: 50px; }
+
 .advantages-margin {
   height: 250px;
   width: 250px;
@@ -83,7 +101,7 @@ footer {
 
 .jumbotron {
   height: 100vh;
-  background-image: url(../images/main-main.jpg);
+  background-image: url(../images/main-main5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000;
@@ -158,7 +176,7 @@ header {
 
 .about {
   height: 600px;
-  background-image: url(../images/about2.jpg);
+  background-image: url(../images/about15.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
   .about--text {
@@ -346,7 +364,12 @@ header {
 
   .contact--text {
     margin-top: 20px;
-    text-align: center; } }
+    text-align: center; }
+
+  #myBtn {
+    right: 20px;
+    width: 70px;
+    height: 70px; } }
 @media only screen and (max-width: 576px) {
   header {
     height: 160px; }
@@ -381,6 +404,12 @@ header {
 
   .contact--text {
     margin-top: 20px;
-    text-align: center; } }
+    text-align: center; }
+
+  #myBtn {
+    bottom: 20px;
+    right: 10px;
+    width: 60px;
+    height: 60px; } }
 
 /*# sourceMappingURL=main.css.map */

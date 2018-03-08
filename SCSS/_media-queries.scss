@@ -94,6 +94,12 @@
         margin-top: 20px;
         text-align: center;
     }
+
+    #myBtn {
+        right: 20px;
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media only screen and (max-width : 576px) {
@@ -141,5 +147,12 @@
     .contact--text {
         margin-top: 20px;
         text-align: center;
+    }
+
+    #myBtn {
+        bottom: 20px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
     }
 }
