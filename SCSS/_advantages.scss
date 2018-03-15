@@ -1,7 +1,7 @@
 .advantages {
-    &--box {
-        height: 270px;
-        width: 270px;
+    &-margin {
+        height: 250px;
+        width: 250px;
         margin: 0 auto 10px;
         border: 10px solid $primary-color;
         border-radius: 100%;
@@ -11,7 +11,7 @@
         color: #333d40;
         cursor: all-scroll;
 
-        &__inner {
+        .advantages--box__inner {
             height: 100%;
             border: 2px solid rgba(219, 114, 13, 0.8);
             border-radius: 100%;
@@ -32,7 +32,7 @@
             
             .advantages--icon {
                 display: block;
-                margin: 70px 0 10px;
+                margin: 60px 0 10px;
                 font-size: 50px;
                 line-height: 50px;
                 color: $primary-color;
@@ -42,12 +42,8 @@
                 position: relative;
                 display: inline-block;
                 text-transform: capitalize;
-                font-size: 16px;
                 font-weight: bold;
             }            
         }
-    }
-    &--box:nth-child(1),  &--box:nth-child(2),  &--box:nth-child(3) {
-        margin-right: 20px;
     }
 }

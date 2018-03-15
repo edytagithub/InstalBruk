@@ -1,0 +1,158 @@
+@media only screen and (max-width : 992px) {
+    .nav-link {
+        font-size: 16px!important;
+        line-height: 65px!important;
+        color: red;
+    }
+
+    .advantages-margin {
+        height: 160px;
+        width: 160px;
+        border: 7px solid $primary-color;
+        padding: 8px;
+        font-size: 13px;
+        color: #333d40;
+        cursor: all-scroll;
+    }
+
+    .advantages--box__inner {
+        border: 1px solid rgba(219, 114, 13, 0.8);
+    }
+
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 33px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .about--text__inner {
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
+    .portfolio--box .portfolio--text {
+        padding: 10px;
+    }
+
+    .contact--text {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    header {
+        height: 160px;
+    }
+
+    header .logo--text {
+        margin-top: 5px;
+    }
+
+    .navbar .nav-item {
+        width: 100%;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .advantages--box {
+        margin-bottom: 20px;
+    }
+    .advantages-margin {
+        height: 200px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .advantages--box__inner {
+        border: 1px solid rgba(219, 114, 13, 0.8);
+    }
+
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 55px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .about--text__inner {
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
+    .portfolio--box .portfolio--text {
+        padding: 10px;
+    }
+
+    .portfolio--text h4 {
+        font-size: 1.2rem;
+    }
+
+    .contact--text {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #myBtn {
+        right: 20px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+    header {
+        height: 160px;
+    }
+
+    header .logo--text {
+        margin-top: 5px;
+    }
+
+    .navbar .nav-item {
+        width: 100%;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .advantages-margin .advantages--box__inner .advantages--icon {
+        margin: 55px 0 3px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .jumbotron--text h1{
+        display: none;
+    }
+
+    .about--text__inner {
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
+    .portfolio--box .portfolio--text {
+        padding: 0;
+    }
+
+    .portfolio--text h4 {
+        font-size: 1rem;
+    }
+
+    .contact--text {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #myBtn {
+        bottom: 20px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -33,3 +33,7 @@
         font-weight: 300;
     }
 }
+
+.icon--next img {
+    transform: scaleX(-1);
+}

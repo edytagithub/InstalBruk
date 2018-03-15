@@ -1,6 +1,6 @@
 .jumbotron {
     height: 100vh;
-    background-image: url(../images/stone-floor.jpg);
+    background-image: url(../images/main-main5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
@@ -26,14 +26,14 @@
     }
 
     .btn-outline-dark {
-        border-color:$primary-color;
-        color: $primary-color;
-        background-color: #fff;
+        border-color: #DB720D;
+        color: #fff;
+        background-color: #DB720D;
 
         &:hover {
-            border-color: #343a40;
-            color: #fff;
-            background-color: $primary-color;
+            border-color: #fff;
+            color: #DB720D;
+            background-color: #fff;
         }
     }
 
