@@ -26,14 +26,14 @@
     }
 
     .btn-outline-dark {
-        border-color: #DB720D;
-        color: #fff;
-        background-color: #DB720D;
+        border-color: $primary-color;
+        color: $button-contrast;
+        background-color: $primary-color;
 
         &:hover {
-            border-color: #fff;
-            color: #DB720D;
-            background-color: #fff;
+            border-color: $button-contrast;
+            color: $primary-color;
+            background-color: $button-contrast;
         }
     }
 

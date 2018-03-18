@@ -1,7 +1,7 @@
 @media only screen and (max-width : 992px) {
-    .nav-link {
-        font-size: 16px!important;
-        line-height: 65px!important;
+    .navigation--link{
+        font-size: 16px;
+        line-height: 65px;
         color: red;
     }
 
@@ -11,18 +11,22 @@
         border: 7px solid $primary-color;
         padding: 8px;
         font-size: 13px;
-        color: #333d40;
+        color: $subtitle-color;
         cursor: all-scroll;
     }
 
     .advantages--box__inner {
-        border: 1px solid rgba(219, 114, 13, 0.8);
+        border: 1px solid $primary-color;
     }
 
-    .advantages-margin .advantages--box__inner .advantages--icon {
-        margin: 33px 0 3px;
-        font-size: 30px;
-        line-height: 30px;
+    .advantages-margin {
+        .advantages--box__inner {
+            .advantages--icon {
+                margin: 33px 0 3px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
     }
     
     .about--text__inner {
@@ -30,8 +34,10 @@
         opacity: 0.9;
     }
 
-    .portfolio--box .portfolio--text {
+    .portfolio--box {
+        .portfolio--text {
         padding: 10px;
+        }
     }
 
     .contact--text {
@@ -43,23 +49,27 @@
 @media only screen and (max-width : 768px) {
     header {
         height: 160px;
+        & .logo--text {
+            margin-top: 5px;
+        }
     }
 
-    header .logo--text {
-        margin-top: 5px;
-    }
-
-    .navbar .nav-item {
+    .navbar {
+        .nav-item {
         width: 100%;
         border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
     }
 
-    .nav-link {
+    .navigation--link {
         border-bottom: 1px solid $primary-color;
     }
 
     .advantages--box {
         margin-bottom: 20px;
+        & .advantages--box__inner {
+            border: 1px solid $primary-color;
+        }
     }
     .advantages-margin {
         height: 200px;
@@ -67,14 +77,14 @@
         font-size: 16px;
     }
 
-    .advantages--box__inner {
-        border: 1px solid rgba(219, 114, 13, 0.8);
-    }
-
-    .advantages-margin .advantages--box__inner .advantages--icon {
-        margin: 55px 0 3px;
-        font-size: 30px;
-        line-height: 30px;
+    .advantages-margin {
+        .advantages--box__inner {
+            .advantages--icon {
+                margin: 55px 0 3px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
     }
 
     .about--text__inner {
@@ -82,8 +92,10 @@
         opacity: 0.9;
     }
 
-    .portfolio--box .portfolio--text {
-        padding: 10px;
+    .portfolio--box {
+        .portfolio--text {
+            padding: 10px;
+        }
     }
 
     .portfolio--text h4 {
@@ -106,25 +118,31 @@
 
     header {
         height: 160px;
+
+        & .logo--text {
+            margin-top: 5px;
+        }
     }
 
-    header .logo--text {
-        margin-top: 5px;
-    }
-
-    .navbar .nav-item {
+    .navbar { 
+        .nav-item {
         width: 100%;
         border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
     }
 
-    .nav-link {
+    .navigation--link {
         border-bottom: 1px solid $primary-color;
     }
 
-    .advantages-margin .advantages--box__inner .advantages--icon {
-        margin: 55px 0 3px;
-        font-size: 30px;
-        line-height: 30px;
+    .advantages-margin {
+        .advantages--box__inner {
+            .advantages--icon {
+                margin: 55px 0 3px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }    
     }
 
     .jumbotron--text h1{
@@ -136,8 +154,10 @@
         opacity: 0.9;
     }
 
-    .portfolio--box .portfolio--text {
-        padding: 0;
+    .portfolio--box {
+        .portfolio--text {
+            padding: 0;
+        }
     }
 
     .portfolio--text h4 {

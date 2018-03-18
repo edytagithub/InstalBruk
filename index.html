@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>InstalBruk</title>
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" >
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" >    
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
@@ -29,7 +28,7 @@
             </div>       
         </div> 
     </header>   
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fff;">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,22 +36,22 @@
             <div class="collapse navbar-collapse" id="navbarNav" >
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#home">Home</a>
+                  <a class="nav-link navigation--link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">O nas</a>
+                    <a class="nav-link navigation--link" href="#about">O nas</a>
                 </li>  
                 <li class="nav-item">
-                  <a class="nav-link" href="#offer">Oferta</a>
+                  <a class="nav-link navigation--link" href="#offer">Oferta</a>
                 </li>     
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Realizacje</a>
+                    <a class="nav-link navigation--link" href="#portfolio">Realizacje</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="#reference">Referencje</a>
+                    <a class="nav-link navigation--link" href="#reference">Referencje</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
+                    <a class="nav-link navigation--link" href="#contact">Kontakt</a>
                 </li>                                  
               </ul>
             </div>
@@ -78,14 +77,14 @@
         <div class="row advantages justify-content-center">
             <div class="col-12 col-sm-6 col-md-3 col-lg-3 advantages--box">
                 <div class="advantages-margin">
-                <div class="advantages--box__inner">
-                    <div class="advantages--icon">
-                        <span class="fa fa-clock-o" aria-hidden="true"></span>
-                    </div>
-                    <div class="advantages--text">
-                        <p>terminowość</p>
+                    <div class="advantages--box__inner">
+                        <div class="advantages--icon">
+                            <span class="fa fa-clock-o" aria-hidden="true"></span>
+                        </div>
+                        <div class="advantages--text">
+                            <p>terminowość</p>
+                        </div> 
                     </div> 
-                </div> 
                 </div>
             </div>  
             <div class="col-12 col-sm-6 col-md-3 col-lg-3 advantages--box">
@@ -229,7 +228,7 @@
             <div class="portfolio row">
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/pavement.jpg" alt="">
+                        <img src="images/realisation/3a.JPG" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -237,7 +236,7 @@
                 </div>
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/texture.jpg" alt="">
+                        <img src="images/realisation/9a.jpg" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -245,7 +244,7 @@
                 </div>
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/pavement.jpg" alt="">
+                        <img src="images/realisation/17.jpg" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -257,7 +256,7 @@
             <div class="portfolio row">
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/texture.jpg" alt="">
+                        <img src="images/realisation/4.jpg" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -265,7 +264,7 @@
                 </div>
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/pavement.jpg" alt="">
+                        <img src="images/realisation/B.jpg" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -273,7 +272,7 @@
                 </div>
                 <div class="col portfolio--box">
                     <div class="portfolio--img">
-                        <img src="images/texture.jpg" alt="">
+                        <img src="images/realisation/8.jpg" alt="">
                     </div>
                     <div class="portfolio--text">
                         <h4>kostka brukowa w krakowie</h4>
@@ -429,16 +428,13 @@
             </div>
         </div>
     </footer> 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-angle-double-up"></span></button>
+    <button id="myBtn" title="Go to top"><span class="fa fa-angle-double-up"></span></button>
 
 
 
     <!-- bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

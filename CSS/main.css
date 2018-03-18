@@ -38,14 +38,12 @@ body {
   width: 80px;
   height: 80px;
   border: none;
+  border-radius: 100%;
   outline: none;
   background-color: #DB720D;
   color: white;
-  cursor: pointer;
-  border-radius: 100%; }
-
-.fa-angle-double-up {
-  font-size: 50px; }
+  font-size: 50px;
+  cursor: pointer; }
 
 .advantages-margin {
   height: 250px;
@@ -56,11 +54,11 @@ body {
   padding: 20px;
   text-align: center;
   font-size: 16px;
-  color: #333d40;
+  color: #4c545f;
   cursor: all-scroll; }
   .advantages-margin .advantages--box__inner {
     height: 100%;
-    border: 2px solid rgba(219, 114, 13, 0.8);
+    border: 2px solid #DB720D;
     border-radius: 100%;
     -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
@@ -77,8 +75,8 @@ body {
       line-height: 50px;
       color: #DB720D; }
     .advantages-margin .advantages--box__inner .advantages--text {
-      position: relative;
       display: inline-block;
+      position: relative;
       text-transform: capitalize;
       font-weight: bold; }
 
@@ -141,7 +139,8 @@ footer {
     border-color: #293133; }
     .navbar-toggler-icon {
       color: #FFF; }
-  .navbar .navbar-collapse, .navbar .navbar-nav {
+  .navbar .navbar-collapse,
+  .navbar .navbar-nav {
     max-width: 100%; }
   .navbar .nav-item:first-child {
     border-left: 1px solid rgba(0, 0, 0, 0.1); }
@@ -290,9 +289,9 @@ header {
     line-height: 18px; }
 
 @media only screen and (max-width: 992px) {
-  .nav-link {
-    font-size: 16px !important;
-    line-height: 65px !important;
+  .navigation--link {
+    font-size: 16px;
+    line-height: 65px;
     color: red; }
 
   .advantages-margin {
@@ -301,11 +300,11 @@ header {
     border: 7px solid #DB720D;
     padding: 8px;
     font-size: 13px;
-    color: #333d40;
+    color: #4c545f;
     cursor: all-scroll; }
 
   .advantages--box__inner {
-    border: 1px solid rgba(219, 114, 13, 0.8); }
+    border: 1px solid #DB720D; }
 
   .advantages-margin .advantages--box__inner .advantages--icon {
     margin: 33px 0 3px;
@@ -325,27 +324,25 @@ header {
 @media only screen and (max-width: 768px) {
   header {
     height: 160px; }
-
-  header .logo--text {
-    margin-top: 5px; }
+    header .logo--text {
+      margin-top: 5px; }
 
   .navbar .nav-item {
     width: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.1); }
 
-  .nav-link {
+  .navigation--link {
     border-bottom: 1px solid #DB720D; }
 
   .advantages--box {
     margin-bottom: 20px; }
+    .advantages--box .advantages--box__inner {
+      border: 1px solid #DB720D; }
 
   .advantages-margin {
     height: 200px;
     width: 200px;
     font-size: 16px; }
-
-  .advantages--box__inner {
-    border: 1px solid rgba(219, 114, 13, 0.8); }
 
   .advantages-margin .advantages--box__inner .advantages--icon {
     margin: 55px 0 3px;
@@ -373,15 +370,14 @@ header {
 @media only screen and (max-width: 576px) {
   header {
     height: 160px; }
-
-  header .logo--text {
-    margin-top: 5px; }
+    header .logo--text {
+      margin-top: 5px; }
 
   .navbar .nav-item {
     width: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.1); }
 
-  .nav-link {
+  .navigation--link {
     border-bottom: 1px solid #DB720D; }
 
   .advantages-margin .advantages--box__inner .advantages--icon {
